@@ -1,0 +1,52 @@
+=== SELF-TEST: ALL FIVE ALGORITHMS ===
+Interchange Sort: total swaps = 0
+[PASS] Insertion   | empty
+[PASS] Selection   | empty
+[PASS] Interchange | empty
+[PASS] Bubble      | empty
+[PASS] Quick       | empty
+Interchange Sort: total swaps = 0
+[PASS] Insertion   | single
+[PASS] Selection   | single
+[PASS] Interchange | single
+[PASS] Bubble      | single
+[PASS] Quick       | single
+Interchange Sort: total swaps = 0
+[PASS] Insertion   | already sorted
+[PASS] Selection   | already sorted
+[PASS] Interchange | already sorted
+[PASS] Bubble      | already sorted
+[PASS] Quick       | already sorted
+Interchange Sort: total swaps = 15
+[PASS] Insertion   | reverse sorted
+[PASS] Selection   | reverse sorted
+[PASS] Interchange | reverse sorted
+[PASS] Bubble      | reverse sorted
+[PASS] Quick       | reverse sorted
+Interchange Sort: total swaps = 0
+[PASS] Insertion   | all equal price and timestamp
+[PASS] Selection   | all equal price and timestamp
+[PASS] Interchange | all equal price and timestamp
+[PASS] Bubble      | all equal price and timestamp
+[PASS] Quick       | all equal price and timestamp
+Interchange Sort: total swaps = 3
+[PASS] Insertion   | duplicate prices/timestamp ties
+[PASS] Selection   | duplicate prices/timestamp ties
+[PASS] Interchange | duplicate prices/timestamp ties
+[PASS] Bubble      | duplicate prices/timestamp ties
+[PASS] Quick       | duplicate prices/timestamp ties
+Interchange Sort: total swaps = 1
+[PASS] Insertion   | near sorted
+[PASS] Selection   | near sorted
+[PASS] Interchange | near sorted
+[PASS] Bubble      | near sorted
+[PASS] Quick       | near sorted
+Interchange Sort: total swaps = 5
+[PASS] Insertion   | negative and zero
+[PASS] Selection   | negative and zero
+[PASS] Interchange | negative and zero
+[PASS] Bubble      | negative and zero
+[PASS] Quick       | negative and zero
+[PASS] Quick Sort  | 2,000 equal bids (termination stress test)
+[PASS] File Loader | replace existing records (regression test)
+TOTAL: 42/42 tests passed
