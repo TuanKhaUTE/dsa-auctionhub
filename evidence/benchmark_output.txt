@@ -1,0 +1,9 @@
+=== QUICK SORT BENCHMARK ===
+Records: 100000 | pivot: median-of-three | trials: 5
+Run 1: 30.735 ms | PASS
+Run 2: 27.458 ms | PASS
+Run 3: 29.248 ms | PASS
+Run 4: 30.314 ms | PASS
+Run 5: 36.697 ms | PASS
+Average: 30.890 ms | Fastest: 27.458 ms
+Validation: sorted ascending by amount, timestamp ties; records preserved
