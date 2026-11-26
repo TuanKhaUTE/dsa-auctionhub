@@ -1,6 +1,6 @@
 # AuctionHub — DSA Practical Submission
 
-**Public GitHub Repository:** [PASTE_YOUR_PUBLIC_REPOSITORY_URL_HERE]
+**Public GitHub Repository:** [https://github.com/TuanKhaUTE/dsa-auctionhub_HERE]
 
 ## 1. Project Overview
 
