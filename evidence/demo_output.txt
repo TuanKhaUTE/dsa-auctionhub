@@ -1,0 +1,25 @@
+=== AUCTIONHUB SMALL DEMO: test_data/small.txt ===
+Loaded 4 bids
+Task A - Live Auction Monitor (ascending price, timestamp tie):
+[alice] $100.00 @ 1000
+[carol] $101.00 @ 1003
+[bob] $102.50 @ 1005
+[dave] $103.00 @ 1010
+Task B - Top 3 bids (descending price):
+[dave] $103.00 @ 1010
+[bob] $102.50 @ 1005
+[carol] $101.00 @ 1003
+... (4 total)
+Interchange Sort: total swaps = 1
+Task C - Price Anomaly Validator (ascending price):
+[alice] $100.00 @ 1000
+[carol] $101.00 @ 1003
+[bob] $102.50 @ 1005
+[dave] $103.00 @ 1010
+Task D - Price window: UNSTABLE
+Task E - Historical sorter (ascending price, timestamp tie):
+[alice] $100.00 @ 1000
+[carol] $101.00 @ 1003
+[bob] $102.50 @ 1005
+[dave] $103.00 @ 1010
+DEMO VALIDATION: PASS
