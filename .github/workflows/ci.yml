@@ -1,0 +1,21 @@
+name: C++17 build, tests and benchmark
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+      - name: Compile with strict warnings
+        run: g++ -std=c++17 -O2 -Wall -Wextra -Wpedantic -Werror auctionhub.cpp -o auctionhub
+      - name: Run all edge-case tests
+        run: ./auctionhub --self-test
+      - name: Verify sample auction outputs
+        run: ./auctionhub --demo test_data/small.txt
+      - name: Benchmark 100,000 bids and validate sorting
+        run: ./auctionhub --benchmark test_data/large.txt
