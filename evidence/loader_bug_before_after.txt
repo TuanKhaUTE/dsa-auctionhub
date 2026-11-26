@@ -1,0 +1,6 @@
+Loader regression: the original loadBids implementation appended to an existing vector.
+Reproduction: vector initially contains 1 existing bid; read small.txt containing 4 bids.
+Before fix: output vector contained 5 bids (BUG).
+Fix: parse into a temporary vector and replace output only after successful parsing.
+After fix: output vector contains exactly 4 bids (PASS).
+Validation: --self-test includes this regression, plus malformed-input handling.
